@@ -183,8 +183,32 @@
 
 // console.log(val);
 
+// let arr= ["new","aj","roy","mango"];
 
+// let val= arr.find((val,i)=>{
+//     return val.length>3;
+// });
+// console.log(val);
 
+// let val=arr.every((val,index)=>{
+//     return val.length>2;
+// });
+
+// console.log(val);
+
+// let val=arr.some((val)=> val.length>4);
+// console.log(val);
+
+// fill method
+// let arr= new Array(5).fill(10,0,2);
+// console.log(arr);
+
+//  splice method
+let arr= [2,5,2,8,2,5,1,5,2,2,5,4];
+arr.splice(0,1);
+arr.splice(1,0,10); 
+arr.splice(0,0,20);
+console.log(arr);
 
 
 
