@@ -71,6 +71,13 @@ console.log(newarr);
 let arr1=[...arr,"j","roy"];
 console.log(arr1);
 
+for(let i in arr1){
+    console.log(arr1[i]);
+}
+
+for(let i of arr1){
+    console.log(i);
+}
 
 
 
