@@ -204,11 +204,28 @@
 // console.log(arr);
 
 //  splice method
-let arr= [2,5,2,8,2,5,1,5,2,2,5,4];
-arr.splice(0,1);
-arr.splice(1,0,10); 
-arr.splice(0,0,20);
-console.log(arr);
+// let arr= [2,5,2,8,2,5,1,5,2,2,5,4];
+// arr.splice(0,1);
+// arr.splice(1,0,10); 
+// arr.splice(0,0,20);
+// console.log(arr);
+
+// Iterable
+// let str="ajeet";
+// for(let i of str){
+//     console.log(i);
+// }
+// for(let i in str){
+//     console.log(str[i]);
+// }
+
+// let obj={
+//     name:"aj",
+//     age:25,
+//     gender:"m"
+// };
+
+
 
 
 
