@@ -21,11 +21,11 @@
 
 // Map method
 
-let obj={
-    name:"ajeet",
-    age:25,
-    gender:"Male"
-};
+// let obj={
+//     name:"ajeet",
+//     age:25,
+//     gender:"Male"
+// };
 
 // let map1= new Map();
 // map1.set(1,10);
@@ -48,7 +48,10 @@ let obj={
 
 // let obj2=obj;
 // let obj2= {...obj};
-let obj2= Object.assign({},obj);
-obj.city="ald";
-console.log(obj);
-console.log(obj2);
+// let obj2= Object.assign({},obj);
+// obj.city="ald";
+// console.log(obj);
+// console.log(obj2);
+
+// Optional chaining
+//  console.log(obj?.city?.home);
