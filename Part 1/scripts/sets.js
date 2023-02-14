@@ -27,14 +27,28 @@ let obj={
     gender:"Male"
 };
 
-let map1= new Map();
-map1.set(1,10);
-map1.set("name","Ajeet");
-map1.set({0:10,1:20,city:"mfp"});
-// console.log(map1.keys());
+// let map1= new Map();
+// map1.set(1,10);
+// map1.set("name","Ajeet");
+// map1.set({0:10,1:20,city:"mfp"});
+// // console.log(map1.keys());
 
-for(let [key,val] of map1){
-    console.log(key,val);
-}
-let map2= new Map([['name',"Ajeet"],[1,10]]);
-console.log(map2);
+// for(let [key,val] of map1){
+//     console.log(key,val);
+// }
+// let map2= new Map([['name',"Ajeet"],[1,10]]);
+// console.log(map2);
+// let map1= new Map();
+// map1.set(obj,{city:"mfp"});
+// console.log(map1);
+// console.log(obj.name);
+// console.log(map1.get(obj).city);
+
+// Clone using object.assign
+
+// let obj2=obj;
+// let obj2= {...obj};
+let obj2= Object.assign({},obj);
+obj.city="ald";
+console.log(obj);
+console.log(obj2);
