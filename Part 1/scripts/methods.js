@@ -28,3 +28,4 @@
 // let fun1=about.bind(obj,"dance","glide");
 // fun1();
 
+ 
